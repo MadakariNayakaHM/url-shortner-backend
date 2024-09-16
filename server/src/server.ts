@@ -12,7 +12,7 @@ console.log(process.env.PORT)
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://url-shortner-frontend-1ou1.onrender.com",
     credentials:true
 }))
 app.use(express.urlencoded({extended:true}))
